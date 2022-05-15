@@ -86,8 +86,6 @@ console.log(`Time Elapsed: ${(t2 - t1) / 1000} seconds.`)
 
 연산 개수 세기 예제
 
-[##_Image|kage@c1qc6Q/btrB7MZ5DEb/bXLqN8Aqj5PfwDlMEhkfG1/img.png|CDM|1.3|{"originWidth":611,"originHeight":689,"style":"alignCenter"}_##]
-
 연산 개수는 실제 연산자가 쓰인 개수를 통해 구할 수 있다. 반복문의 경우 그 반복문이 돌아간 횟수만큼이 곱해지는데 이러한 특성 때문에 반복문이 포함된 코드의 연산 개수는 n의 값에 따라 변화한다.
 
 위의 첫번째 예제는 상수배, 두번째 예제는 n배의 연산 개수값이 부여된다.
@@ -126,8 +124,6 @@ O(N)
 
 첫째, **Big O표현법에는 O(1), O(n), O(n^2)... 같은 형태밖에 없다.**
 
-[##_Image|kage@wvkTR/btrB6ku2AXd/r8Y4W2xs2XvZwKah6lb8Q0/img.png|CDM|1.3|{"originWidth":503,"originHeight":272,"style":"alignCenter"}_##]
-
 둘째, **상수, 변수, 배열의 요소, 객체 등은 O(1)로 표기하고, 반복문은 반복 횟수에 따라 O(n), O(n^2) 등으로 표기한다.**
 
 Math.max(n,5)처럼 1에서부터 5까지의 값은 5, 나머지는 전부 n에 비례하는 경우는 O(n).
@@ -136,7 +132,6 @@ Math.min(n,5)처럼 1에서부터 5까지의 값은 n, 나머지는 전부 5인 
 
 **전체적인 추세를 대표하는 값을 따라간다.**
 
-[##_Image|kage@c9GUtS/btrCdI2YUxi/xL7i3BRr4pAeuJTlbSxbN0/img.png|CDM|1.3|{"originWidth":445,"originHeight":622,"style":"alignCenter","caption":"위부터 각각 O(n), O(1), O(n), O(n)"}_##]
 </br></br></br>
 10\. 공간 복잡도
 
@@ -145,5 +140,3 @@ Math.min(n,5)처럼 1에서부터 5까지의 값은 n, 나머지는 전부 5인 
 공간 복잡도는 단순히 말하면 배열이 있으면 O(n) 없으면 O(1)이다.
 
 이것은 배열이 초기화되기 전에는 n이 무한대로 향하며 n이 커질수록 입력이 커지기 때문이다.
-
-[##_Image|kage@qD5pq/btrCaj3ZcAQ/9ImopKmSdBjr4GOxqFxwpk/img.png|CDM|1.3|{"originWidth":417,"originHeight":931,"style":"alignCenter","caption":"위부터 각각 O(1), O(1), O(1), O(n), O(n)"}_##]
