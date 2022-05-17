@@ -59,3 +59,4 @@ _섹션 이름과 파일 모두 띄어쓰기 없이 생성_
 - yellow https://github.com/sangbeomheo
 - 서연이몬
 - 라이노이
+- 심플
