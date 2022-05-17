@@ -53,6 +53,9 @@ _섹션 이름과 파일 모두 띄어쓰기 없이 생성_
 ```
 
 ## 스터디원(총 6명)
-- 달달 https://github.com/jcrs0907
-
-
+- jcrs0907 https://github.com/jcrs0907
+- leedawn https://github.com/leedawnn
+- oculo0204 https://github.com/oculo0204
+- yellow https://github.com/sangbeomheo
+- 서연이몬
+- 라이노이
